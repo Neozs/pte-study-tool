@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PTE Study Tool 📚
 
-## Getting Started
+![Vibecoding](https://img.shields.io/badge/Built%20With-Vibecoding-ff69b4?style=for-the-badge&logo=sparkles)
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-First, run the development server:
+A comprehensive, open-source study platform for the **PTE Academic** exam. 
+
+This project was built using **Vibecoding** methodology: leveraging advanced AI agents (NotebookLM + Antigravity) to research, synthesize, and implement a full-stack solution in record time.
+
+## 🚀 Features
+
+### 📚 Structure & Scoring (`/learn`)
+- **Deep Dive**: Detailed breakdown of all 20 PTE task types across Speaking, Writing, Reading, and Listening.
+- **Scoring Insights**: Understand how Communicative and Enabling skills are calculated.
+
+### 🧠 Advanced Strategies (`/strategies`)
+- **Templates**: Copy-paste ready templates for *Describe Image*, *Retell Lecture*, and *Essay*.
+- **Proven Tactics**: Tips for fluency, keyword capture, and time management.
+
+### 🏋️ Daily Practice (`/practice`)
+- **Resource Hub**: Curated links to the best tools (APEUni, E2Language, etc.).
+- **4-Week Plan**: A structured roadmap from diagnostic test to exam day.
+
+## 🛠️ Getting Started
+
+First, clone the repository:
+
+```bash
+git clone https://github.com/Neozs/pte-study-tool.git
+cd pte-study-tool
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤖 The "Vibecoding" Process
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project demonstrates the power of AI-assisted development:
+1.  **Research**: Used **NotebookLM** to ingest and analyze PTE exam content.
+2.  **Synthesis**: Created briefing docs for core structure, strategies, and practice.
+3.  **Construction**: Built a **Next.js** app based on those insights, fully scaffolded and deployed by AI.
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
