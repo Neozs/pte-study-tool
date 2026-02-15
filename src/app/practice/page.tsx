@@ -95,7 +95,7 @@ export default function PracticePage() {
                         <CardHeader><CardTitle className="text-yellow-800">High Frequency</CardTitle></CardHeader>
                         <CardContent>
                             <p className="text-sm text-yellow-800 mb-4">
-                                "High Frequency" or "Predicted" questions are real exam questions that repeat often.
+                                &quot;High Frequency&quot; or &quot;Predicted&quot; questions are real exam questions that repeat often.
                             </p>
                             <ul className="space-y-2">
                                 <li className="flex items-center gap-2 text-sm text-slate-700"><CheckCircle size={16} className="text-green-500" /> Write from Dictation</li>
@@ -109,7 +109,7 @@ export default function PracticePage() {
                         <CardHeader><CardTitle className="text-white">Daily Challenge</CardTitle></CardHeader>
                         <CardContent>
                             <div className="mb-4">
-                                <div className="text-xs uppercase tracking-wide text-slate-400 mb-1">Today's Task</div>
+                                <div className="text-xs uppercase tracking-wide text-slate-400 mb-1">Today&apos;s Task</div>
                                 <div className="font-bold text-lg">Describe Image</div>
                             </div>
                             <p className="text-sm text-slate-300 mb-4">

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BookOpen, Target, Dumbbell, Home } from 'lucide-react';
+import { BookOpen, Target, Dumbbell } from 'lucide-react';
 
 export function Navbar() {
     return (

@@ -48,12 +48,12 @@ export default function StrategiesPage() {
                     </CardHeader>
                     <CardContent className="space-y-4">
                         <div className="bg-white p-4 rounded border text-sm text-slate-800 font-mono leading-relaxed">
-                            <p className="mb-2"><span className="text-blue-600 font-bold">Intro:</span> "The image provided is a [chart type] that illustrates information about [topic]."</p>
-                            <p className="mb-2"><span className="text-blue-600 font-bold">High:</span> "From the image, it is clear that [Category A] has the highest figure, which is [Value]."</p>
-                            <p className="mb-2"><span className="text-blue-600 font-bold">Low:</span> "On the contrary, [Category B] has the lowest figure, which is [Value]."</p>
-                            <p className="mb-2"><span className="text-blue-600 font-bold">Conclusion:</span> "Overall, the image gives accurate information about [topic]."</p>
+                            <p className="mb-2"><span className="text-blue-600 font-bold">Intro:</span> &quot;The image provided is a [chart type] that illustrates information about [topic].&quot;</p>
+                            <p className="mb-2"><span className="text-blue-600 font-bold">High:</span> &quot;From the image, it is clear that [Category A] has the highest figure, which is [Value].&quot;</p>
+                            <p className="mb-2"><span className="text-blue-600 font-bold">Low:</span> &quot;On the contrary, [Category B] has the lowest figure, which is [Value].&quot;</p>
+                            <p className="mb-2"><span className="text-blue-600 font-bold">Conclusion:</span> &quot;Overall, the image gives accurate information about [topic].&quot;</p>
                         </div>
-                        <p className="text-xs text-slate-500">Tip: Speak for 30-35 seconds. Don't stop too early.</p>
+                        <p className="text-xs text-slate-500">Tip: Speak for 30-35 seconds. Don&apos;t stop too early.</p>
                     </CardContent>
                 </Card>
 
@@ -64,10 +64,10 @@ export default function StrategiesPage() {
                     </CardHeader>
                     <CardContent className="space-y-4">
                         <div className="bg-white p-4 rounded border text-sm text-slate-800 font-mono leading-relaxed">
-                            <p className="mb-2">"The speaker was discussing <span className="text-teal-600">[Main Topic]</span>."</p>
-                            <p className="mb-2">"He/She mentioned that <span className="text-teal-600">[Key Point 1]</span>."</p>
-                            <p className="mb-2">"He/She also highlighted <span className="text-teal-600">[Key Point 2]</span> and <span className="text-teal-600">[Key Point 3]</span>."</p>
-                            <p className="mb-2">"Overall, the lecture was very informative about <span className="text-teal-600">[Main Topic]</span>."</p>
+                            <p className="mb-2">&quot;The speaker was discussing <span className="text-teal-600">[Main Topic]</span>.&quot;</p>
+                            <p className="mb-2">&quot;He/She mentioned that <span className="text-teal-600">[Key Point 1]</span>.&quot;</p>
+                            <p className="mb-2">&quot;He/She also highlighted <span className="text-teal-600">[Key Point 2]</span> and <span className="text-teal-600">[Key Point 3]</span>.&quot;</p>
+                            <p className="mb-2">&quot;Overall, the lecture was very informative about <span className="text-teal-600">[Main Topic]</span>.&quot;</p>
                         </div>
                         <p className="text-xs text-slate-500">Tip: Capture 3-4 keywords/phrases to fill the blanks.</p>
                     </CardContent>
@@ -97,7 +97,7 @@ export default function StrategiesPage() {
                                 <div className="text-xs text-slate-500">Summary + Restate Thesis</div>
                             </div>
                         </div>
-                        <p className="text-xs text-slate-500 text-center">Target 200-300 words. Use connectors like 'Furthermore', 'Consequently'.</p>
+                        <p className="text-xs text-slate-500 text-center">Target 200-300 words. Use connectors like &apos;Furthermore&apos;, &apos;Consequently&apos;.</p>
                     </CardContent>
                 </Card>
             </div>
