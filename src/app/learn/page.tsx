@@ -79,22 +79,51 @@ export default function LearnPage() {
 
             <Card className="bg-slate-50 border-slate-200">
                 <CardHeader>
-                    <CardTitle>Scoring Insight</CardTitle>
+                    <CardTitle className="flex items-center gap-2">
+                        <span className="p-1.5 bg-blue-100 text-blue-700 rounded-md">🇦🇺</span>
+                        Australian Visa Requirements (2025 Updates)
+                    </CardTitle>
                 </CardHeader>
-                <CardContent>
-                    <p className="text-slate-700 mb-4">
-                        PTE Scoring is integrated. This means tasks often contribute to multiple skills at once. For example,
-                        <span className="font-semibold"> Read Aloud</span> contributes points to both <span className="text-blue-600 font-medium">Reading</span> and <span className="text-blue-600 font-medium">Speaking</span>.
+                <CardContent className="space-y-6">
+                    <p className="text-slate-700 text-sm">
+                        Requirements updated <strong>August 7, 2025</strong>. Ensure your scores meet these minimums for visa eligibility.
                     </p>
-                    <div className="grid sm:grid-cols-2 gap-4">
-                        <div>
-                            <h4 className="font-semibold text-sm uppercase tracking-wide text-slate-500 mb-2">Communicative Skills</h4>
-                            <p className="text-sm text-slate-900 bg-white p-2 rounded border">Listening, Reading, Speaking, Writing (10-90 scale)</p>
+
+                    <div className="grid sm:grid-cols-2 gap-6">
+                        <div className="space-y-3">
+                            <h4 className="font-bold text-slate-900 border-b pb-1">Student Visa (500)</h4>
+                            <div className="flex justify-between text-sm">
+                                <span>Minimum Overall</span>
+                                <span className="font-bold text-blue-700">47</span>
+                            </div>
+                            <div className="flex justify-between text-sm">
+                                <span>With 10 wks ELICOS</span>
+                                <span className="font-bold text-blue-700">36</span>
+                            </div>
                         </div>
-                        <div>
-                            <h4 className="font-semibold text-sm uppercase tracking-wide text-slate-500 mb-2">Enabling Skills</h4>
-                            <p className="text-sm text-slate-900 bg-white p-2 rounded border">Grammar, Fluency, Pronunciation, Spelling, Vocabulary, Discourse</p>
+
+                        <div className="space-y-3">
+                            <h4 className="font-bold text-slate-900 border-b pb-1">Migration Points (189/190/491)</h4>
+                            <div className="flex justify-between text-sm">
+                                <span>Superior (20 pts)</span>
+                                <span className="font-bold text-green-700">79+</span>
+                            </div>
+                            <div className="flex justify-between text-sm">
+                                <span>Proficient (10 pts)</span>
+                                <span className="font-bold text-teal-700">65+</span>
+                            </div>
                         </div>
+                    </div>
+
+                    <div className="p-4 bg-white rounded border border-slate-200">
+                        <h4 className="font-semibold text-sm mb-2">Competent English (Minimum for PR)</h4>
+                        <div className="grid grid-cols-4 gap-2 text-center text-xs">
+                            <div className="p-1 bg-slate-50 rounded">L: 47</div>
+                            <div className="p-1 bg-slate-50 rounded">R: 48</div>
+                            <div className="p-1 bg-slate-50 rounded">W: 51</div>
+                            <div className="p-1 bg-slate-50 rounded">S: 54</div>
+                        </div>
+                        <p className="mt-2 text-[10px] text-slate-500 italic">*Skills-specific scores apply for certain visa sub-classes.</p>
                     </div>
                 </CardContent>
             </Card>

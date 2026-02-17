@@ -92,11 +92,27 @@ export default function PracticePage() {
                 {/* Sidebar */}
                 <div className="space-y-6">
                     <Card className="bg-yellow-50 border-yellow-200">
-                        <CardHeader><CardTitle className="text-yellow-800">High Frequency</CardTitle></CardHeader>
-                        <CardContent>
-                            <p className="text-sm text-yellow-800 mb-4">
-                                &quot;High Frequency&quot; or &quot;Predicted&quot; questions are real exam questions that repeat often.
+                        <CardHeader><CardTitle className="text-yellow-800">Migration Points Target</CardTitle></CardHeader>
+                        <CardContent className="space-y-4">
+                            <div className="bg-white p-3 rounded border border-yellow-200">
+                                <div className="text-xs font-bold text-yellow-700 uppercase">Goal: Superior</div>
+                                <div className="text-2xl font-black text-slate-900">79+ <span className="text-sm font-normal text-slate-500">Bands</span></div>
+                                <div className="text-xs text-green-600 font-bold">+20 Visa Points</div>
+                            </div>
+                            <div className="bg-white p-3 rounded border border-yellow-100">
+                                <div className="text-xs font-bold text-yellow-600 uppercase">Goal: Proficient</div>
+                                <div className="text-2xl font-black text-slate-900">65+ <span className="text-sm font-normal text-slate-500">Bands</span></div>
+                                <div className="text-xs text-teal-600 font-bold">+10 Visa Points</div>
+                            </div>
+                            <p className="text-xs text-slate-600 italic">
+                                Most skilled migration applicants in Australia aim for <strong>79+</strong> to be competitive.
                             </p>
+                        </CardContent>
+                    </Card>
+
+                    <Card className="bg-white border-slate-200">
+                        <CardHeader><CardTitle className="text-slate-900 text-base">High Frequency</CardTitle></CardHeader>
+                        <CardContent>
                             <ul className="space-y-2">
                                 <li className="flex items-center gap-2 text-sm text-slate-700"><CheckCircle size={16} className="text-green-500" /> Write from Dictation</li>
                                 <li className="flex items-center gap-2 text-sm text-slate-700"><CheckCircle size={16} className="text-green-500" /> Repeat Sentence</li>

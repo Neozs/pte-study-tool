@@ -8,10 +8,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="text-center space-y-4 py-12">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-900">
-          Master PTE Academic with <span className="text-blue-600">Structure & Strategy</span>
+          Master PTE Academic for <span className="text-blue-600">Australian Migration</span>
         </h1>
         <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-          Your one-stop hub for exam mastery. track your progress, learn the core structures, and practice with high-frequency questions.
+          Built for subclass 500, 189, 190, and 491 visas. Track your progress, master templates, and score 79+ for maximum points.
         </p>
         <div className="flex justify-center gap-4 pt-4">
           <Link href="/learn" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-white hover:bg-blue-700 h-11 px-8">
