@@ -14,6 +14,25 @@ export default function PracticePage() {
 
                 {/* Main Content Area */}
                 <div className="md:col-span-2 space-y-8">
+                    {/* Exam Structure Highlight */}
+                    <Card className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-md border-0">
+                        <CardHeader className="pb-2">
+                            <CardTitle className="text-xl flex items-center gap-2">
+                                <CheckCircle size={24} className="text-indigo-200" />
+                                Master the Exam Format
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <p className="text-indigo-100 mb-4">
+                                Discover exactly what each section entails, time limits, actionable strategies, and high-scoring templates directly collected from premium study platforms.
+                            </p>
+                            <Link href="/practice/exam-structure" className="inline-block bg-white text-indigo-700 hover:bg-indigo-50 font-semibold px-4 py-2 rounded-md transition-colors text-sm shadow-sm">
+                                View Full Exam Structure & Templates &rarr;
+                            </Link>
+                        </CardContent>
+                    </Card>
+
+                    {/* Top Resources */}
                     {/* Top Resources */}
                     <section>
                         <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
@@ -23,28 +42,28 @@ export default function PracticePage() {
                             <Card className="hover:shadow-md transition-shadow">
                                 <CardHeader className="pb-2"><CardTitle className="text-base">APEUni</CardTitle></CardHeader>
                                 <CardContent>
-                                    <p className="text-xs text-slate-500 mb-3">Best for AI scoring and standard practice questions.</p>
+                                    <p className="text-xs text-slate-700 mb-3">Best for AI scoring and standard practice questions.</p>
                                     <Link href="https://apeuni.com" target="_blank" className="text-sm text-blue-600 hover:underline">Visit Website &rarr;</Link>
                                 </CardContent>
                             </Card>
                             <Card className="hover:shadow-md transition-shadow">
                                 <CardHeader className="pb-2"><CardTitle className="text-base">E2Language</CardTitle></CardHeader>
                                 <CardContent>
-                                    <p className="text-xs text-slate-500 mb-3">Premium courses and method-based learning.</p>
+                                    <p className="text-xs text-slate-700 mb-3">Premium courses and method-based learning.</p>
                                     <Link href="https://e2language.com" target="_blank" className="text-sm text-blue-600 hover:underline">Visit Website &rarr;</Link>
                                 </CardContent>
                             </Card>
                             <Card className="hover:shadow-md transition-shadow">
                                 <CardHeader className="pb-2"><CardTitle className="text-base">Official Pearson</CardTitle></CardHeader>
                                 <CardContent>
-                                    <p className="text-xs text-slate-500 mb-3">The gold standard for scored mock tests.</p>
+                                    <p className="text-xs text-slate-700 mb-3">The gold standard for scored mock tests.</p>
                                     <Link href="https://pearsonpte.com" target="_blank" className="text-sm text-blue-600 hover:underline">Visit Website &rarr;</Link>
                                 </CardContent>
                             </Card>
                             <Card className="hover:shadow-md transition-shadow">
                                 <CardHeader className="pb-2"><CardTitle className="text-base">Real PTE</CardTitle></CardHeader>
                                 <CardContent>
-                                    <p className="text-xs text-slate-500 mb-3">Good source for recent exam questions.</p>
+                                    <p className="text-xs text-slate-700 mb-3">Good source for recent exam questions.</p>
                                     <Link href="#" className="text-sm text-blue-600 hover:underline">Search Online &rarr;</Link>
                                 </CardContent>
                             </Card>
